@@ -1,7 +1,4 @@
 # object-recognizer
-A script to classify objects from ImageNET.
-<img src='demo1.jpg' />
-<img src='demo2.jpg' />
 # Dependencies
 * Python 2.7
 * OpenCV 2.4+
