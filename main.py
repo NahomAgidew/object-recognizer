@@ -3,17 +3,6 @@
 Author: Nahom Abi
 
 """
-from keras.preprocessing import image as image_utils
-import sys
-import os
-sys.path.append(os.getcwd() + '/deep-learning-models')
-from imagenet_utils import decode_predictions
-from imagenet_utils import preprocess_input
-from vgg16 import VGG16
-import numpy as np
-import argparse
-import cv2
-from PIL.Image import *
 
 ap = argparse.ArgumentParser()
 ap.add_argument("-i", "--image", required=True, help="path to the input image")
